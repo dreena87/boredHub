@@ -1,0 +1,167 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/09/d9/67/09d967920db4d5d77f818d86493366bb.jpg");
+}
+
+#signUpButton,
+#linkToLogIn,
+#linkToFavs{
+    color:white;
+    text-decoration: none;
+    
+}
+#emailHelp{
+    color: white;
+}
+
+label{
+    color:white;
+}
+
+#signUpJumbotron{
+    background-color: blueviolet;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* sign up page text title */
+.text-center {
+    color: white;
+    -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.homeTitle{
+    font-family: 'Chicle', cursive;
+    font-size: 6rem;
+    color: white;
+    -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+/* youtube title text */
+
+.lead{
+    color: white;
+    font-weight: 400;
+    -webkit-text-stroke: .3px black;
+   color: white;
+   text-shadow:
+       1px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+
+#youTubeArea{
+    background-color: red;
+    /* max-width: 1200px; */
+    /* overflow-x: scroll; */
+    overflow-y: hidden;
+    /* white-space: nowrap; */
+    position: relative;
+}
+
+#player {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* white-space: nowrap; */
+    
+}
+
+/* youtube icon button */
+
+.fab  {
+    color: red;
+}
+
+/* giphy title text*/
+
+.lead_2{
+    color: white;
+    font-weight: 400;
+    -webkit-text-stroke: .3px black;
+   color: white;
+   text-shadow:
+       1px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#giphyArea{
+    background-color: black;
+    height: 250px;
+    /* overflow-x: scroll; */
+    overflow-y: hidden;
+    /* white-space: nowrap; */
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#images {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*giphy icon button */
+
+.fas {
+    color: rgb(173, 66, 244);
+}
+
+h2{
+    color: white;
+}
+
+/* favorites icon color*/
+
+.fa {
+    color:rgb(219, 24, 37);
+}
+
+
+/* Netflixy Slideshow */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#Gnext, #Gprev {
+    background-color: white;
+}

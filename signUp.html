@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bored Hub - Sign UP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script src="assets/javascript/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div class = 'container'>
+        <div id = 'mainHeader'>
+                <h1 class = 'homeTitle text-center'>Bored Hub</h1>
+            </div>
+            <h1 class = 'text-center'>Sign Up Page</h1>
+    <div id = 'signUpJumbotron' class = 'jumbotron'>   
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Username</label>
+            <input id = 'userName'type="text" class="form-control" aria-describedby="username" placeholder="Enter Username">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input id = 'emailInput'type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input id = "passwordInput" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button id = "realSignUpButton" type="submit" class="btn btn-primary">Sign Up</button>
+        <a href="index.html">Back Home</a>
+    </form>
+</div><!--End of Jumbotron-->
+</div><!--End of Container-->
+    <script src = 'assets/javascript/firebase.js'></script>
+    <script src='assets/javascript/bored.js'></script>
+</body>
+
+</html>

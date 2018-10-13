@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BoredHUB: Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script src="assets/javascript/jquery.min.js"></script>
+    
+</head>
+<body>
+<!-- As a heading -->
+<!-- <nav class="navbar navbar-light bg-light">
+     <span id = 'showUserName'class="navbar-brand mb-0 h1"></span>
+</nav>-->
+<div class = "container-fluid">
+    <div id = 'mainHeader'>
+        <h1 class = 'homeTitle text-center'>Bored Hub</h1>
+    </div>
+    <div>
+        <a id = 'linkToLogIn' href = "logIn.html"><button id = 'logIn' type="button" class="btn btn-primary mr-1 invisible">Log In</button></a>
+        <a id = 'signUpButton' href = "signUp.html"><button id = 'signUp' type="button" class="btn btn-primary invisible">Sign Up</button></a>
+
+        <div>
+        <button id = 'logOutButton' class = 'btn btn-danger invisible '>Log Out</button>
+        <a id = 'linkToFavs' href = "favorites.html"><button id = 'favsButton' type="button" class="btn btn-primary invisible">My Favorities</button></a>
+            </div>
+    </div>
+   
+    <div class = 'row'>
+        <div id = 'youTubeTitle'>
+            <h5 class = 'lead mt-4'>Trending On YouTube <i class="fab fa-youtube"></i></h5>
+       
+        </div>
+        <div id = 'youTubeArea' class = 'col-md-12 pt-3 pb-3'>
+            <div id = 'player'>
+                <!-- jQuery will populate this area -->
+                
+            </div>
+            <a class="prev" id="YTprev">&#10094;</a>
+            <a class="next" id="YTnext">&#10095;</a>
+        </div>
+    </div>
+   
+    <br>
+
+    <div class = 'row'>
+        
+        <h5 class="lead_2">Trending on Giphy <i class="fas fa-grin-squint"></i></h5>
+        <div id = 'giphyArea'class = 'col-md-12 pt-3 pb-3'>
+            <div class = col-md-3 id="images">
+                
+            </div>
+            <a class="prev" id="Gprev">&#10094;</a>
+            <a class="next" id="Gnext">&#10095;</a>
+        </div>
+    </div>
+</div>
+
+<script src = 'assets/javascript/index.js'></script>  
+<script src = 'assets/javascript/firebase.js'></script>
+</body>
+</html>
+
